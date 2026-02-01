@@ -74,6 +74,10 @@ The result is a lightweight monitoring system that reflects genuine effort, not 
 
 ## Setup Instructions
 
+### Download and Install RainMeter:
+
+from https://www.rainmeter.net/ download the .exe file and install it by double left click
+
 ### Clone the repository into your Rainmeter skins directory by running the following command in any bash terminal:
 
 ```bash
@@ -95,14 +99,16 @@ Replace the placeholders with your actual usernames.
 ```
 **Note:** `config.json`, `local.inc`, `history.json`, `variables.inc`, and `debug.log` are gitignored—your data and paths are never committed.
 
-### If Python is not detected automatically or the widget is blank, configure it manually or else you are good to go:
+### If Python is not detected automatically or the widget is blank, configure it manually or else skip this step:
 open CMD and run
-```bash
+```script
 where pythonw
 ```
 copy the last path and paste it into `local.inc` (see `local.inc.example`). Use `PythonPath=...` with no leading space.
 
-
+### Loading the .ini file
+click ^ from the taskbar and open manage from the rainmeter running 
+navigate to the folder and ini file and load it and now you are good to go
 
 ---
 
